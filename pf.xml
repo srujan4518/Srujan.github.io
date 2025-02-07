@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegesna Srujan Varma - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vegesna Srujan Varma</h1>
+        <p>(+91) 7993820025 | Telangana, India | srujanvarma516@gmail.com</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#objective">Objective</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#strengths">Strengths</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="objective">
+            <h2>Objective</h2>
+            <p>Enthusiastic Computer Science student with a passion for software engineering seeking a full-time role to apply and enhance skills in developing innovative solutions.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>B.Tech in Computer Science</h3>
+                    <p>MLR Institute of Technology - CGPA: 8.34</p>
+                    <p>Expected Graduation: 2025</p>
+                    <p>Relevant Coursework: Advanced Data Structures, Algorithms, Database Management Systems, Web Development</p>
+                </li>
+                <li>
+                    <h3>Intermediate</h3>
+                    <p>Narayana Junior College - 94%</p>
+                    <p>2019-2021</p>
+                </li>
+                <li>
+                    <h3>10th (SSC)</h3>
+                    <p>Velociity High School - CGPA: 9.7</p>
+                    <p>2019 Passed Out</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> Python, Java, C</li>
+                <li><strong>Frontend Technologies:</strong> JavaScript, ReactJS, Angular, HTML5, CSS</li>
+                <li><strong>Backend:</strong> PostgreSQL, MySQL, MongoDB</li>
+                <li><strong>Framework Tools:</strong> Figma, Power BI, Fast API</li>
+            </ul>
+        </section>
+
+        <section id="strengths">
+            <h2>Strengths</h2>
+            <ul>
+                <li><strong>Problem Solving:</strong> Strong analytical skills with a focus on attention to detail and methodical issue resolution.</li>
+                <li><strong>Data Science:</strong> Proficient in developing neural networks and selecting appropriate model architecture based on requirements. Critical knowledge in Natural Language Processing and Open Computer Vision.</li>
+                <li><strong>Communication:</strong> Excellent communicator, able to convey technical information clearly to both technical and non-technical audiences.</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>AI Powered Video Editor</h3>
+                <p><em>Technologies: Python, ReactJs, FastAPI</em></p>
+                <ul>
+                    <li>Implemented automated video manipulating features where users can edit videos just by prompt.</li>
+                    <li>Developed NLP using RNN model to understand user prompts and trigger apt tailored modules.</li>
+                    <li>Integrated it with ReactJS web interface by tallying correspondent server-side endpoints using FastAPI.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Sorting Visualiser</h3>
+                <p><em>Technologies: JavaScript, HTML, CSS</em></p>
+                <ul>
+                    <li>Developed a real-time visualization tool demonstrating various sorting algorithms to aid in algorithm selection.</li>
+                    <li>Implemented algorithms include Bubble Sort, Merge Sort, Quick Sort, etc.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Smart City Animal Detection and Alert System</h3>
+                <p><em>Technologies: Python, OpenCV, ThingSpeak API, Pushover API</em></p>
+                <ul>
+                    <li>Developed AI animal detection system with ResNet50 CNN, achieving 95% accuracy for Smart City safety.</li>
+                    <li>Integrated IoT alerts to notify users within 5 seconds and update ThingSpeak database.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Data Structures and Algorithms C [Apna College, Dec 2022 - Dec 2023]</li>
+                <li>Google Data Analytics [Coursera, Dec 2024 - Jan 2025]</li>
+                <li>Full Stack Web Development (MERN) [Apna College, Aug 2023-Dec 2023]</li>
+                <li>AWS Machine Learning Essentials [By AWS]</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vegesna Srujan Varma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
