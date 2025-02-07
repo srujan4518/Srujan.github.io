@@ -1,0 +1,93 @@
+:root {
+    --deep-purple: #4A0E4E;
+    --medium-purple: #7E4E8E;
+    --light-purple: #B19CD9;
+    --pale-purple: #E6E6FA;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: var(--deep-purple);
+    background-color: var(--pale-purple);
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: var(--deep-purple);
+    color: var(--white);
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: var(--medium-purple);
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: var(--deep-purple);
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--deep-purple);
+    border-bottom: 2px solid var(--medium-purple);
+    padding-bottom: 10px;
+}
+
+.project {
+    background-color: var(--pale-purple);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-left: 4px solid var(--medium-purple);
+}
+
+footer {
+    background-color: var(--deep-purple);
+    color: var(--white);
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+a {
+    color: var(--medium-purple);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
